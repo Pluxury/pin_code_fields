@@ -127,16 +127,13 @@ class PinTheme {
       selectedFillColor: selectedFillColor ?? defaultValues.selectedFillColor,
       shape: shape ?? defaultValues.shape,
       fieldOuterPadding: fieldOuterPadding ?? defaultValues.fieldOuterPadding,
-      activeBoxShadows: activeBoxShadow ?? [],
-      inActiveBoxShadows: inActiveBoxShadow ?? [],
+      activeBoxShadows: activeBoxShadow,
+      inActiveBoxShadows: inActiveBoxShadow,
       activeBorderWidth: activeBorderWidth ?? defaultValues.activeBorderWidth,
-      inactiveBorderWidth:
-      inactiveBorderWidth ?? borderWidth ?? defaultValues.inactiveBorderWidth,
-      selectedBorderWidth:
-      selectedBorderWidth ?? borderWidth ?? defaultValues.selectedBorderWidth,
+      inactiveBorderWidth: inactiveBorderWidth ?? borderWidth ?? defaultValues.inactiveBorderWidth,
+      selectedBorderWidth: selectedBorderWidth ?? borderWidth ?? defaultValues.selectedBorderWidth,
       errorBorderWidth: errorBorderWidth ?? borderWidth ?? defaultValues.errorBorderWidth,
-      disabledBorderWidth:
-      disabledBorderWidth ?? borderWidth ?? defaultValues.disabledBorderWidth,
+      disabledBorderWidth: disabledBorderWidth ?? borderWidth ?? defaultValues.disabledBorderWidth,
     );
   }
 }
